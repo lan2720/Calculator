@@ -6,6 +6,8 @@
 //  Copyright © 2016年 SJTU. All rights reserved.
 //
 
+// just add sth for test
+
 import UIKit
 
 extension Character {
