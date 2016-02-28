@@ -56,14 +56,14 @@ enum Operator: String {
     // 每个操作符有自己的优先级
     var priority: Int {
         switch self {
-            case Add:
+            case Add, Subtract:
                 return 0
-            case Subtract:
-                return 0
-            case Multiply:
+//            case :
+//                return 0
+            case Multiply, Divide:
                 return 1
-            case Divide:
-                return 1
+//            case :
+//                return 1
         }
     }
 }
